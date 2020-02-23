@@ -175,7 +175,7 @@ void turnOff(int channel = 0) {
   setState(relayState, channel);
 }
 
-void toggleState() {
+ICACHE_RAM_ATTR void toggleState() {
   cmd = CMD_BUTTON_CHANGE;
 }
 
@@ -595,7 +595,3 @@ void loop()
 
 
 }
-
-
-
-
