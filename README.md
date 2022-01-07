@@ -52,6 +52,12 @@ You can send messages to `deviceId/channel-0` with the following parameters:
 - 'toggle' to toggle between on and off
 The status will come as a response on topic `deviceId/channel-0/status`
 
+### Reset
+In case you screwed up, you can reset/restart the device by pressing the onboard button:
+- Press <1s: toggle the relay (normal behavior)
+- Press <5s: force restart of the device
+- Press >5s: reset WiFi credentials and force restart of the device
+
 ### More information
 Here are some posts I wrote on making all this work that you might find helpful
 
